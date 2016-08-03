@@ -53,17 +53,8 @@ var bot = controller.spawn({
     token: process.env.TOKEN
 }).startRTM();
 
-controller.setupWebserver(process.env.port,function(err,webserver) {
-
+controller.setupWebserver(process.env.PORT,function(err,webserver) {
   controller.createWebhookEndpoints(controller.webserver);
-
-  controller.createOauthEndpoints(controller.webserver,function(err,req,res) {
-    if (err) {
-      res.status(500).send('ERROR: ' + err);
-    } else {
-      res.send('Success!');
-    }
-  });
 });
 
 
