@@ -11,6 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "botkit": "^0.2.2",
+    "eventsource": "^0.2.1",
+    "q": "^1.4.1",
+    "requestify": "^0.2.0",
     "slackbots": "^0.5.1"
   }
 }
