@@ -1,10 +1,2 @@
 # Coffee Bot
 
-```
-export PORT=3000
-export TOKEN=xoxb-65930883249-UT9aVpc1NwXMAfqgn8BDisxQ
-export PARTICLE_TOKEN=8e35c2af7d6720db8666e4f871d3b02f8bcda699
-export PARTICLE_DEVICE_ID=320021001147353236343033
-export SLACK_CHANNEL=coffee
-npm start
-```
